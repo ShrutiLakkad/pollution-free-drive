@@ -1,0 +1,24 @@
+.header {
+	height: 500px;
+	background-image: url('../../images/background-image.jpeg');
+	background-size: cover; /* Adjust the background size as needed */
+	background-position: center;
+	position: relative;
+	opacity: 0.9;
+	background-repeat: no-repeat;
+	.header-container {
+		display: flex;
+		justify-content: start;
+		align-items: center;
+		.header-logo {
+			border-radius: 50%;
+			width: 103px;
+			padding: 20px;
+		}
+		.text {
+			font-size: 30px;
+			font-weight: 600;
+			color: white;
+		}
+	}
+}

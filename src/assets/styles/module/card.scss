@@ -1,0 +1,59 @@
+.container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: white;
+	height: 49vh;
+	gap: 100px;
+}
+.card {
+	position: relative;
+	width: 450px;
+	padding: 20px;
+	box-shadow: 3px 10px 20px rgba(0, 0, 0, 0.2);
+	border-radius: 3px;
+	border: 0;
+	margin-bottom: 176px;
+	.circle {
+		border-radius: 3px;
+		width: 150px;
+		height: 150px;
+		background: white;
+		position: absolute;
+		right: 0px;
+		top: 0;
+		color: black;
+		background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
+		border-bottom-left-radius: 170px;
+	}
+}
+.sensor-details {
+	width: auto;
+	color: black;
+	.sensor-data {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+}
+.card-details {
+	width: auto;
+}
+
+.select {
+	// background: white;
+	color: black;
+}
+h5 {
+	font-size: 16px;
+	font-weight: 500;
+	margin-bottom: 15px;
+}
+p {
+	font-size: 16px;
+	// font-weight: 500;
+	margin-bottom: 15px;
+}
+.dropdown-select_menu {
+	height: 10px;
+}
